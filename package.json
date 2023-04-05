@@ -1,0 +1,76 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.16.0",
+    "flag-icons": "^6.6.6",
+    "framer-motion": "^9.0.2",
+    "i18next": "^22.4.1",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.1.0",
+    "react": "^18.2.0",
+    "react-cookie-consent": "^8.0.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.40.0",
+    "react-i18next": "^12.1.1",
+    "react-intersection-observer": "^9.4.1",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.9",
+    "start": "^5.1.0",
+    "v6": "^0.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "test": "npm run test -ws --if-present",
+    "start": "react-scripts start",
+    "start:library": "npm start -w library",
+    "start:example": "./start-example.sh",
+    "start:map-example": "cross-env EXAMPLE=map run-p start:library start:example",
+    "start:map-with-markers-example": "cross-env EXAMPLE=map-with-markers run-p start:library start:example",
+    "start:multiple-maps-example": "cross-env EXAMPLE=multiple-maps run-p start:library start:example",
+    "start:geocoding-service-example": "cross-env EXAMPLE=geocoding-service run-p start:library start:example",
+    "start:places-service-example": "cross-env EXAMPLE=places-service run-p start:library start:example",
+    "start:places-service-with-element-example": "cross-env EXAMPLE=places-service-with-element run-p start:library start:example",
+    "start:places-autocomplete-widget-example": "cross-env EXAMPLE=places-autocomplete-widget run-p start:library start:example",
+    "start:directions-service-example": "cross-env EXAMPLE=directions-service run-p start:library start:example",
+    "start:distance-matrix-service-example": "cross-env EXAMPLE=distance-matrix-service run-p start:library start:example",
+    "start:elevation-service-example": "cross-env EXAMPLE=elevation-service run-p start:library start:example",
+    "start:max-zoom-service-example": "cross-env EXAMPLE=max-zoom-service run-p start:library start:example",
+    "start:places-autocomplete-service-example": "cross-env EXAMPLE=places-autocomplete-service run-p start:library start:example",
+    "start:street-view-panorama-map-example": "cross-env EXAMPLE=street-view-panorama-map run-p start:library start:example",
+    "start:street-view-panorama-element-example": "cross-env EXAMPLE=street-view-panorama-element run-p start:library start:example",
+    "preversion": "echo \"To create a new library version run 'npm version -w library' in the repository root.\"",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

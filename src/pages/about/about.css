@@ -1,0 +1,155 @@
+.about-section {
+    display: flex;
+    padding: 5rem 15rem 2rem 1rem;
+   
+    
+}
+
+.about-motion-div {
+    display: flex;
+}
+.left-about{
+    max-width: 700px;
+}
+
+.left-about > img {
+    width: 100%;
+}
+
+.right-about {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: start;
+    margin-right: 4rem;
+    font-size: 1.25rem;
+    padding-left: 2rem;
+    
+}
+.right-about > span {
+    display: block;
+color: #50A060;;
+text-transform: uppercase;
+margin-bottom: 12px;
+position: relative;
+z-index: -11;
+padding-left: 15px;
+padding-top: 3px;
+padding-bottom: 2px;
+font-size: 25px;
+font-weight: 200;
+font-family: "Roboto", sans-serif;
+}
+.right-about > span::before {
+    content: '';
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 60px;
+background: #50A060;;
+z-index: -1;
+opacity: .20;
+}
+.right-about > h2 {
+    color: #212529;
+    font-weight: 500;
+    font-size: 2rem;
+    min-width: 18rem;
+    margin-bottom: 15px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+.right-about > p {
+    color: #666666;
+    min-width: 18rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.right-about> button {
+    height: 2.2rem;
+    font-size: 0.8rem;
+    
+    width: 10rem;
+    color: rgb(255, 255, 255);
+    background: #50A060;
+    border: none;
+    border-radius: 4px;
+    transition: 0.2s;
+    font-family: "Roboto", sans-serif;
+}
+
+.right-about > button:hover {
+   background-color: #005D4A;
+    cursor: pointer;
+}
+@media screen and ( min-width: 1650px) {
+    .about-section {
+        display: flex;
+        padding: 5rem 1rem 2rem 1rem;
+        justify-content: center;
+        gap: 3rem;
+    }    
+
+    .right-about {
+        margin-right: 0rem;
+        max-width: 50rem;
+
+        
+    }
+}
+
+
+@media screen and ( max-width: 1440px) {
+    .about-section {
+        display: flex;
+        padding: 5rem 1rem 2rem 1rem;
+    }    
+}
+
+@media screen and (max-width: 1250px) {
+    .about-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .left-about > img {
+        width: 100%;
+    }
+    .left-about {
+        padding-bottom: 5rem;
+    }
+    
+ }
+ @media screen and (max-width: 680px) {
+    .right-about {
+        margin-right: 0rem;
+
+        padding-left: 0rem;
+       width: 100%;
+       font-size: 1.2rem;
+    }
+
+   .right-about > h2 {
+    font-size: 1.5rem;
+   }
+   .right-about > p {
+    font-size: 1rem;
+   }
+    .left-about {
+        padding-top: 2rem;
+    }
+    .left-about > img {
+        width: 23rem;
+        margin-top: 2rem;
+        display: none;
+
+    }
+}
+ 

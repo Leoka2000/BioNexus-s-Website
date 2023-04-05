@@ -1,0 +1,106 @@
+.footer-main-container {
+    height: 30rem;
+    width: 100%;
+    color: #cacaca;
+    background-color:#06040a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.footer-child-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.footer-child-container > a > img {
+    width: 10rem;
+}
+.btn-footer {
+    height: 3rem;
+font-size: 0.8rem;
+padding-top: 0.3rem;
+padding-bottom: 0.3rem;
+width: 8rem;
+color: #fafafa;
+background: #50A060;
+border: none;
+border-radius: 4px;
+transition:ease-in-out 0.3s;
+font-family: "Poppins", sans-serif;
+cursor: pointer;
+margin-top: 1rem;
+margin-bottom: 0.5rem;
+}
+.btn-footer:hover {
+    background: #275731;
+    
+}
+.footer-child-container > h2 {
+    color: #cacaca;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.footer-icons-container > a > svg {
+    font-size: 1.5rem;
+    margin: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #cacaca;
+     transition: 0.5s;
+   
+}
+.footer-icons-container > a > svg:hover {
+    color: #50A060;
+    transform: scale(1.2);
+}
+
+.UD-logo {
+    width: 10%;
+}
+
+
+@media screen and (max-width: 720px) {
+    
+    .footer-child-container > h2
+     {
+        font-size: 0.9rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        
+
+    }
+    .footer-child-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 2rem;
+        font-size: 0.9rem;
+    }
+    .footer-child-container > p  {
+      padding-bottom: 0.5rem;
+    }
+    .btn-footer {
+        height:3rem;
+        width: 8rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-family: "Roboto", sans-serif;
+        
+    }
+
+} 

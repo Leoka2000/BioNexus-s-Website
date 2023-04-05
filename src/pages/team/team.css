@@ -1,0 +1,155 @@
+.team-section {
+    padding: 5rem 6rem 5rem 6rem;
+}
+
+.team-header {
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    
+    gap: 0.5rem;
+} 
+.team-header > h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #212529;
+    min-width: 18rem;
+}
+.team-header > span {
+    text-transform: uppercase;
+position: relative;
+padding-left: 15px;
+font-family: "Roboto", sans-serif;
+z-index: 1;
+padding-top: 3px;
+padding-bottom: 2px;
+font-size: 18px;
+font-weight: 200;
+color: #50A060;
+}
+.team-header > span::before {
+    content: '';
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 150px;
+background: #22b663;
+z-index: -1;
+opacity: .20;
+}
+.team-header > p {
+    color: #666666;
+    width: 60%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    min-width: 18rem;
+    max-width: 35rem;
+}
+.team-main {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+
+
+
+
+
+}
+
+.individual-wrapper-main {
+   
+width: 25rem;
+max-width: 350px;
+    min-width: 277px;
+    
+   
+
+}
+
+.member-img {
+    height: 25rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5%;
+  
+}
+
+.individual-wrapper-main > div > img {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.member-content {
+   
+    text-align: center;
+    font-size: 1.3rem;
+}
+.member-content > h2 {
+    font-weight: bolder;
+    margin-bottom: 0.2rem;
+    color: #212529;
+    width: 100%;
+    font-size: 1.4rem;
+    
+    font-family: "Poppins", sans-serif;
+}
+.member-content > p {
+    color: #50A060;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1600px) {
+    .individual-wrapper-main {
+        flex: 0 0 auto;
+    width: 25%;
+    max-width: 350px;
+        min-width: 277px;
+    }
+    .team-main {
+       
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .team-section {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .individual-wrapper-main {
+        
+  
+    
+        min-width: 300px;
+       
+    
+    }
+    .member-img {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .team-header {
+       margin-right: 1rem;
+    }
+    .team-header > h1 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .team-header > p {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
