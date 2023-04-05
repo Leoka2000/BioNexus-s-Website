@@ -1,8 +1,8 @@
 
 import './footer.css';
-import { BsLinkedin } from 'react-icons/bs'
-import { BsInstagram } from 'react-icons/bs'
-import { AiOutlineLink } from 'react-icons/ai'
+import { BsLinkedin } from 'react-icons/bs/index.esm'
+import { BsInstagram } from 'react-icons/bs/index.esm'
+import { AiOutlineLink } from 'react-icons/ai/index'
 import React from 'react';
 import UDlogo from '../../assets2/brand/UDlogo.png'
 import {useTranslation} from 'react-i18next'
