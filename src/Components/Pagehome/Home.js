@@ -13,9 +13,9 @@ import Partners from '../../pages/partners/partners'
 import Team from '../../pages/team/team'
 import './home.css'
 
-import { BsLinkedin } from 'react-icons/bs';
-import { AiOutlineLink } from 'react-icons/ai';
-import { BsInstagram } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs/index.esm';
+import { AiOutlineLink } from 'react-icons/ai/index.esm';
+import { BsInstagram } from 'react-icons/bs/index.esm';
 
 const Home = () => {
   return (
