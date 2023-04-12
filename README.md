@@ -9,12 +9,12 @@
 
 ## Used By
 
-This project was built with the intention of creating a website for my Junior Entprise in Hungary, BioNexusJr:
+This project was built with the intention of creating a website for my Junior Entprise in Hungary, BioNexus.
 
 
 ## Features
 
-- Since the Junior Enterprise is located in Hungary, the user is able to switch languages through the navbar component.
+- Since the junior enterprise is located in Hungary, the user is able to switch languages through the navbar component.
 - Responsive navbar. It also indicates which section of the website the user is on by highlighting texts with green.
 - Form validation through react-hook-form.
 
