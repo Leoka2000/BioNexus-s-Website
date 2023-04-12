@@ -1,25 +1,25 @@
 <img src="./src/assets2/brand/LogoWhole.png" style="width: 500px">
 
 
-## Tech Stack
+## Tech Stack:
 
 **Client:** React, JavaScript, React-Router-DOM, and i18next
 
 
 
-## Used By
+## Used By:
 
 This project was built with the intention of creating a website for my Junior Entprise in Hungary, BioNexus.
 
 
-## Features
+## Features:
 
 - Since the junior enterprise is located in Hungary, the user is able to switch languages through the navbar component.
 - Responsive navbar. It also indicates which section of the website the user is on by highlighting texts with green.
 - Form validation through react-hook-form.
 
 
-## File Structure
+## File Structure:
 ### 1. src/pages
 - Stores all of the different pages of the website
 
