@@ -24,14 +24,14 @@ const Footer = () => {
         <button className='btn-footer'><Link to="contact" spy={true} smooth={true} offset={100} duration={500}>{t('description.navbar-4')}</Link></button>
 
         <div className="footer-icons-container">
-      <a href='https://www.linkedin.com/company/bionexusjr/'>< BsLinkedin/></a>
-      <a href='https://www.instagram.com/bionexusjr/'>< BsInstagram/></a>
-      <a href='https://linktr.ee/bionexus'><  AiOutlineLink/></a>
+      <a target="_blank" href='https://www.linkedin.com/company/bionexusjr/'>< BsLinkedin/></a>
+      <a target="_blank" href='https://www.instagram.com/bionexusjr/'>< BsInstagram/></a>
+      <a target="_blank" href='https://linktr.ee/bionexus'><  AiOutlineLink/></a>
         </div>
         <p>hello@bionexusjr.com</p>
         <p>Debreceni Egyetem, Egyetem Tér 1, 4028 - Hajdú-Bihar</p>
-       <a href='https://www.edu.unideb.hu/'> <img alt='UD Logo' src={UDlogo} /></a>
-        <p>Developed by Leo Reus Oliveira</p>
+       <a target="_blank" href='https://www.edu.unideb.hu/'> <img  alt='UD Logo' src={UDlogo} /></a>
+        <p>Developed by <a id='leo'  target="_blank" href='https://www.linkedin.com/in/leoreus/'> Leo Reus Oliveira </a></p>
       </div>
     </div>
   )

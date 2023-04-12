@@ -65,7 +65,14 @@ margin-bottom: 0.5rem;
     width: 10%;
 }
 
-
+#leo {
+    color: #50A060;
+    border-bottom: none;
+    text-decoration: none;
+}
+#leo:hover {
+   color: #275731;
+}
 @media screen and (max-width: 720px) {
     
     .footer-child-container > h2

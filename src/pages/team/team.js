@@ -7,6 +7,7 @@ import Alisha from '../../assets2/imgs/Alisha.jpg'
 import Nijat from '../../assets2/imgs/Nijat.jpg'
 import Letty from '../../assets2/imgs/Letty.jpg'
 import Leo from '../../assets2/imgs/Leo.jpg'
+import Fábió from '../../assets2/imgs/Fábió.jpg'
 import {useTranslation} from 'react-i18next'
 
 
@@ -37,6 +38,15 @@ const Team = () => {
           <div className='member-content'>
             <h2>Leo Reus Oliveira</h2>
             <p>{t('description.team-leo')}</p>
+          </div>
+        </div>
+        <div className='individual-wrapper-main'>
+          <div className='member-img'>
+            <img alt='Alisha' src={Fábió} />
+          </div>
+          <div className='member-content'>
+            <h2>Fábió</h2>
+            <p>{t('description.team-fábió')}</p>
           </div>
         </div>
         <div className='individual-wrapper-main'>

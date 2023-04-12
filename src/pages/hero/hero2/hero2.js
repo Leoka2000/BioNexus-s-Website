@@ -17,14 +17,51 @@ import {useInView} from 'react-intersection-observer'
 
 const Hero2 = () => {
   const { t } = useTranslation();
+  const { ref, inView } = useInView({ threshold: 0.4 })
+  const animation = useAnimation()
+
+  useEffect(() => {
+    if (inView) {
+      animation.start('visible')
+    }
+  }, [inView, animation])
+
   return (
     <>
       <section id='hero2' className='hero2-section'>
-<div  className='left'>
-  <span>{t('description.hero2-1')}</span>
-  <h1>{t('description.hero2-2')}</h1>
-  <p>{t('description.hero2-3')}</p>
-  <button className='hero2-btn'><Link to="services" spy={true} smooth={true} offset={100} duration={500}>{t('description.hero2-4')}</Link></button>
+<div  className='left' ref={ref}>
+<motion.span
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 0.6 }}
+            
+          >
+            {t('description.hero2-1')}
+          </motion.span>
+          <motion.h1
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 1, delay: 0.6 }}
+          >
+            {t('description.hero2-2')}
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 1, delay: 0.6 }}
+          >
+            {t('description.hero2-3')}
+          </motion.p>
+          <motion.button
+            className='hero2-btn'
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 1, delay: 0.9 }}
+          >
+            <Link to='services' spy={true} smooth={true} offset={100} duration={500}>
+              {t('description.hero2-4')}
+            </Link>
+          </motion.button>
 </div>
 <div className='right'>
     < img alt='Computer guy' src={img} />

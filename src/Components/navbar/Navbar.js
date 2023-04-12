@@ -7,17 +7,10 @@ import hungary from './navbar-flags/hungary.png'
 import { FaTimes } from 'react-icons/fa'
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-scroll'
-
-
-
-import { useTranslation, withTranslation, Trans } from 'react-i18next';
+import { useTranslation} from 'react-i18next';
 import './Navbar.css';
 
-function Navbar() {
-  
-
-
-  // the function makes so that when the click is set to false, it reverses it
+const Navbar = () => {
 
 
   const { t, i18n } = useTranslation();

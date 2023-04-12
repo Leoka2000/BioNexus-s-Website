@@ -21,9 +21,9 @@ const Home = () => {
   return (
     <div className='home-wrapper'>
       <div className='sidebar'>
-        <a href='https://www.linkedin.com/company/bionexusjr/'><BsLinkedin /></a>
-        <a href='https://www.instagram.com/bionexusjr/'><BsInstagram /></a>
-        <a href='https://linktr.ee/bionexus'><AiOutlineLink /></a>
+        <a target="_blank" href='https://www.linkedin.com/company/bionexusjr/'><BsLinkedin /></a>
+        <a target="_blank" href='https://www.instagram.com/bionexusjr/'><BsInstagram /></a>
+        <a target="_blank" href='https://linktr.ee/bionexus'><AiOutlineLink /></a>
       </div>
       <div className='content'>
         <Navbar />
