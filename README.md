@@ -14,7 +14,7 @@ This project was built with the intention of creating a website for my Junior En
 
 ## Features:
 
-- Since the junior enterprise is located in Hungary, the user is able to switch languages through the navbar component.
+- Since the junior enterprise is located in Hungary, the user is able to switch languages in the navbar component through an integration with I18next API.
 - Responsive navbar. It also indicates which section of the website the user is on by highlighting texts with green.
 - Form validation through react-hook-form.
 
