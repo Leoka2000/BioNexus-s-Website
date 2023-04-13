@@ -27,7 +27,7 @@ This project was built with the intention of creating a website for my Junior En
 - Stores React components that are being shared throughout the application.
 
 ### 3. src/assets 
-- stores images that will be used in the application
+- Stores images that will be used in the application
 
  ## React Hooks:
 
