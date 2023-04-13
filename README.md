@@ -3,7 +3,7 @@
 
 ## Tech Stack:
 
-**Client:** React, JavaScript, React-Router-DOM, and i18next
+**Client:** React, JavaScript, and i18next
 
 
 
