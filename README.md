@@ -35,6 +35,8 @@ This project was built with the intention of creating a website for my Junior En
 - useEffect
 - React Router DOM
 - useRef
+- useForm
+- useNavigate
 
 ## Dependencies:
 
